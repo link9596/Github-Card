@@ -28,7 +28,7 @@ English | [简体中文](/readme-zh.md)
 </div>
 ```
 
-4. (Optional) GitHub默认的Api请求有速率限制（每小时60次），你可以添加Access Token来提高限制（每小时5000次）
+4. (可选) GitHub默认的Api请求有速率限制（每小时60次，对于个人网页展示等已经足够），但你还可以添加Access Token来提高限制（每小时5000次）
 在载入JS之前加上:
 
 ```html
