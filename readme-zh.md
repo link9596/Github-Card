@@ -4,23 +4,23 @@
 
 English | [简体中文](/readme-zh.md)
 
-## Features
-- Auto‑fetches stars, forks, description, and primary language from GitHub API.
+## 特性
+- 从GitHub API自动拉取仓库信息.
 
-- Responsive grid layout.
+- 响应式布局.
 
-- No build step, no external dependencies.
+- 无依赖，仅需两行代码就能展示仓库卡片.
 
-# Usage
-1. Include the script
+# 食用方法
+1. 引入JS文件
 ```html
 <script src="github-card.js"></script>
 ```
-2. Add a container with the repository name
+2. 以以下形式添加一个div，`data-github-repo`字段包含用户名和仓库
 ```html
 <div data-github-repo="owner/repo"></div>
 ```
-3. (Optional) Wrap multiple cards in a grid container for responsive grid layout.
+3. (可选) 当有多个卡片一起摆放时，可以嵌套一个github-cards-grid类的div获得响应式布局
 ```html
 <div class="github-cards-grid">
   <div data-github-repo="link9596/Github-Card"></div>
@@ -28,8 +28,8 @@ English | [简体中文](/readme-zh.md)
 </div>
 ```
 
-4. (Optional) Increase API rate limit with a GitHub token
-Place this before the script tag:
+4. (Optional) GitHub默认的Api请求有速率限制（每小时60次），你可以添加Access Token来提高限制（每小时5000次）
+在载入JS之前加上:
 
 ```html
 <script>
@@ -37,10 +37,9 @@ Place this before the script tag:
 </script>
 <script src="github-card.js"></script>
 ```
-Without a token: 60 requests per hour.
-With a token: 5,000 requests per hour.
 
-Example
+
+实例
 ```html
 <!DOCTYPE html>
 <html>
