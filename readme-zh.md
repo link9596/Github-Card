@@ -2,7 +2,7 @@
 
 > 一款在网页上展示GitHub仓库的轻量级组件
 
-English | [简体中文](/readme-zh.md)
+[English](/readme.md) | 简体中文
 
 ## 特性
 - 从GitHub自动拉取仓库信息.
