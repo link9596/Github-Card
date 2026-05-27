@@ -5,7 +5,7 @@
 English | [简体中文](/readme-zh.md)
 
 ## 特性
-- 从GitHub API自动拉取仓库信息.
+- 从GitHub自动拉取仓库信息.
 
 - 响应式布局.
 
