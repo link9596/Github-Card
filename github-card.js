@@ -92,14 +92,14 @@
             --link-hover: #0969da;
         }
         .dark, @media (prefers-color-scheme: dark) {
-            --bg-color: #0d1117;
-            --text-color: #c9d1d9;
-            --card-bg: #161b22;
-            --card-border: #30363d;
-            --card-shadow: 0 1px 3px rgba(0,0,0,0.2);
-            --hover-shadow: 0 4px 12px rgba(0,0,0,0.4);
-            --description-color: #8b949e;
-            --link-hover: #58a6ff;
+            --bg-color: #0d1117 !important;
+            --text-color: #c9d1d9 !important;
+            --card-bg: #161b22 !important;
+            --card-border: #30363d !important;
+            --card-shadow: 0 1px 3px rgba(0,0,0,0.2) !important;
+            --hover-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+            --description-color: #8b949e !important;
+            --link-hover: #58a6ff !important;
         }
         body.light, body.light .github-repo-card {
             --bg-color: #f6f8fa;
