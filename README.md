@@ -38,6 +38,15 @@ Place this before the script tag:
 </script>
 <script src="github-card.js"></script>
 ```
+or use your own Proxy api url:
+
+```html
+<script>
+  window.GithubCardProxy = 'https://example.yourdomain.com/';
+</script>
+<script src="github-card.js"></script>
+```
+
 Without a token: 60 requests per hour.
 With a token: 5,000 requests per hour.
 
