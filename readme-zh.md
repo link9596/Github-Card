@@ -4,6 +4,8 @@
 
 [English](/readme.md) | 简体中文
 
+![](/screenshot.png)
+
 ## 特性
 - 从GitHub自动拉取仓库信息.
 
