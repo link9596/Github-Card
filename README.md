@@ -38,7 +38,7 @@ Place this before the script tag:
 </script>
 <script src="github-card.js"></script>
 ```
-or use your own Proxy api url:
+We do not recommend exposing the Access Token. You can hide the Access Token via a proxy and then use your custom proxy API source:
 
 ```html
 <script>
