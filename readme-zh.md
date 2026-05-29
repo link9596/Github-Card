@@ -40,7 +40,7 @@
 <script src="github-card.js"></script>
 ```
 
-我们不建议将Token暴露在外，你可以使用你自定义的代理api源：
+我们不建议将Access Token暴露在外，你可以通过代理隐藏Access Token，然后使用你自定义的代理api源：
 
 ```html
 <script>
