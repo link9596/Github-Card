@@ -40,6 +40,14 @@
 <script src="github-card.js"></script>
 ```
 
+我们不建议将Token暴露在外，你可以使用你自定义的代理api源：
+
+```html
+<script>
+  window.GithubCardProxy = 'https://example.yourdomain.com/';
+</script>
+<script src="github-card.js"></script>
+```
 
 实例
 ```html
