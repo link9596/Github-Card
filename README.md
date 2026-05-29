@@ -3,6 +3,8 @@
 
 English | [简体中文](/readme-zh.md)
 
+![](/screenshot.png)
+
 ## Features
 - Auto‑fetches stars, forks, description, and primary language from GitHub API.
 
